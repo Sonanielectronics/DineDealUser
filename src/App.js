@@ -17,7 +17,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-      <Route path="/:id" element={<WpLogin />} />
+      <Route exect path="/:id" element={<WpLogin />} />
       <Route path="/signin/:id" element={<SignIn />} />
       <Route path="/relationstatus/:id" element={<RelationStatus />} />
       <Route path="/gender/:id" element={<Gender />} />
